@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Расписание БКНТУ</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+
+		<div class="modal fade" id="raspanext" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Расписание на завтра</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+						<div id="mrasp">
+						<div id="fullrasp" style="">
+							<br><br>
+							<div class="row">
+							<div class="col-md-12">
+								<h4>9ИСП-42-18</h4>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="row d-flex align-items-center px-3">
+									<div class="col-lg-1 col-md-2 col-2 px-0" align="center">
+										<div class="back d-flex align-items-center justify-content-center">
+											<div class="circle d-flex align-items-center justify-content-center "><b>4</b></div>
+										</div>
+									</div>
+									<div class="col-lg-1 col-md-2 col-2 px-0 none-2" align="center">
+										<div class="back d-flex align-items-center justify-content-center">
+											<span class="timeRasp">13:00<br class="none-4"><span class="none-5"> - </span>14:20</span>								</div>
+										</div>
+										<div class="col-lg-8 col-md-10 col-10 px-0">
+											<div class="back">
+												<h4>МДК. Разработка кода информационных систем",</h4>
+												<p>
+												Кашина Марина Анатольевна																					</p>
+											</div>
+										</div>
+										<div class="col-md-6 col-6 px-0 none-3" align="center">
+													<div class="back w-100 back-sm d-flex align-items-center justify-content-center">
+														<span class="timeRasp">14:30<br class="none-4"><span class="none-5"> - </span>15:50</span>									</div>
+													</div>
+													<div class="col-lg-2 col-md-6 col-6 px-0" align="center">
+														<div class="back back-sm d-flex align-items-center justify-content-center">
+															<span class="cab">
+															204																									</span>
+														</div>
+													</div>
+										</div>
+
+										<div class="row d-flex align-items-center px-3">
+											<div class="col-lg-1 col-md-2 col-2 px-0" align="center">
+												<div class="back d-flex align-items-center justify-content-center">
+													<div class="circle d-flex align-items-center justify-content-center "><b>5</b></div>
+												</div>
+											</div>
+											<div class="col-lg-1 col-md-2 col-2 px-0 none-2" align="center">
+												<div class="back d-flex align-items-center justify-content-center">
+													<span class="timeRasp">14:30<br class="none-4"><span class="none-5"> - </span>15:50</span>								</div>
+												</div>
+												<div class="col-lg-8 col-md-10 col-10 px-0">
+													<div class="back">
+														<h4>МДК. Проектирование и дизайн информационных систем</h4>
+														<p>
+														Павлова Анастасия Николаевна																					</p>
+													</div>
+												</div>
+												<div class="col-md-6 col-6 px-0 none-3" align="center">
+													<div class="back w-100 back-sm d-flex align-items-center justify-content-center">
+														<span class="timeRasp">14:30<br class="none-4"><span class="none-5"> - </span>15:50</span>									</div>
+													</div>
+													<div class="col-lg-2 col-md-6 col-6 px-0" align="center">
+														<div class="back back-sm d-flex align-items-center justify-content-center">
+															<span class="cab">
+															410																									</span>
+														</div>
+													</div>
+												</div>
+
+													</div>
+												</div><br>
+											</div>
+											</div>
+
+						<div id="mrasp">
+						<div id="fullrasp" style="">
+							<br><br>
+							<div class="row">
+							<div class="col-md-12">
+								<h4>9ИСП-423к-18</h4>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="row d-flex align-items-center px-3">
+									<div class="col-lg-1 col-md-2 col-2 px-0" align="center">
+										<div class="back d-flex align-items-center justify-content-center">
+											<div class="circle d-flex align-items-center justify-content-center "><b>1</b></div>
+										</div>
+									</div>
+									<div class="col-lg-1 col-md-2 col-2 px-0 none-2" align="center">
+										<div class="back d-flex align-items-center justify-content-center">
+											<span class="timeRasp">8:00<br class="none-4"><span class="none-5"> - </span>9:20</span>								</div>
+										</div>
+										<div class="col-lg-8 col-md-10 col-10 px-0">
+											<div class="back">
+												<h4>Стандартизация, сертификация и техническое документоведение,</h4>
+												<p>
+												Абрамова Лариса Алексеевна																					</p>
+											</div>
+										</div>
+										<div class="col-md-6 col-6 px-0 none-3" align="center">
+													<div class="back w-100 back-sm d-flex align-items-center justify-content-center">
+														<span class="timeRasp">14:30<br class="none-4"><span class="none-5"> - </span>15:50</span>									</div>
+													</div>
+													<div class="col-lg-2 col-md-6 col-6 px-0" align="center">
+														<div class="back back-sm d-flex align-items-center justify-content-center">
+															<span class="cab">
+															404																									</span>
+														</div>
+													</div>
+										</div>
+
+										<div class="row d-flex align-items-center px-3">
+											<div class="col-lg-1 col-md-2 col-2 px-0" align="center">
+												<div class="back d-flex align-items-center justify-content-center">
+													<div class="circle d-flex align-items-center justify-content-center "><b>2</b></div>
+												</div>
+											</div>
+											<div class="col-lg-1 col-md-2 col-2 px-0 none-2" align="center">
+												<div class="back d-flex align-items-center justify-content-center">
+													<span class="timeRasp">9:30<br class="none-4"><span class="none-5"> - </span>10:50</span>								</div>
+												</div>
+												<div class="col-lg-8 col-md-10 col-10 px-0">
+													<div class="back">
+														<h4>Стандартизация, сертификация и техническое документоведение</h4>
+														<p>
+														Казина Ирина Геннадиевна																				</p>
+													</div>
+												</div>
+												<div class="col-md-6 col-6 px-0 none-3" align="center">
+													<div class="back w-100 back-sm d-flex align-items-center justify-content-center">
+														<span class="timeRasp">14:30<br class="none-4"><span class="none-5"> - </span>15:50</span>									</div>
+													</div>
+													<div class="col-lg-2 col-md-6 col-6 px-0" align="center">
+														<div class="back back-sm d-flex align-items-center justify-content-center">
+															<span class="cab">
+															404																									</span>
+														</div>
+													</div>
+												</div>
+													</div>
+												</div><br>
+											</div>
+											</div>
+
+																	<div id="mrasp">
+						<div id="fullrasp" style="">
+							<br><br>
+							<div class="row">
+							<div class="col-md-12">
+								<h4>9ПКС-422к-18</h4>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="row d-flex align-items-center px-3">
+									<div class="col-lg-1 col-md-2 col-2 px-0" align="center">
+										<div class="back d-flex align-items-center justify-content-center">
+											<div class="circle d-flex align-items-center justify-content-center "><b>1</b></div>
+										</div>
+									</div>
+									<div class="col-lg-1 col-md-2 col-2 px-0 none-2" align="center">
+										<div class="back d-flex align-items-center justify-content-center">
+											<span class="timeRasp">8:00<br class="none-4"><span class="none-5"> - </span>9:20</span>								</div>
+										</div>
+										<div class="col-lg-8 col-md-10 col-10 px-0">
+											<div class="back">
+												<h4>МДК. Инструментальные средства разработки программного обеспечения",</h4>
+												<p>
+												Павлова Анастасия Николаевна																					</p>
+											</div>
+										</div>
+										<div class="col-md-6 col-6 px-0 none-3" align="center">
+													<div class="back w-100 back-sm d-flex align-items-center justify-content-center">
+														<span class="timeRasp">9:30<br class="none-4"><span class="none-5"> - </span>10:50</span>									</div>
+													</div>
+													<div class="col-lg-2 col-md-6 col-6 px-0" align="center">
+														<div class="back back-sm d-flex align-items-center justify-content-center">
+															<span class="cab">
+															410																								</span>
+														</div>
+													</div>
+										</div>
+
+										<div class="row d-flex align-items-center px-3">
+											<div class="col-lg-1 col-md-2 col-2 px-0" align="center">
+												<div class="back d-flex align-items-center justify-content-center">
+													<div class="circle d-flex align-items-center justify-content-center "><b>2</b></div>
+												</div>
+											</div>
+											<div class="col-lg-1 col-md-2 col-2 px-0 none-2" align="center">
+												<div class="back d-flex align-items-center justify-content-center">
+													<span class="timeRasp">9:30<br class="none-4"><span class="none-5"> - </span>10:50</span>								</div>
+												</div>
+												<div class="col-lg-8 col-md-10 col-10 px-0">
+													<div class="back">
+														<h4>Физическая культура</h4>
+														<p>
+														Саптарова Гульфия Рашитовна																					</p>
+													</div>
+												</div>
+													<div class="col-lg-2 col-md-6 col-6 px-0" align="center">
+														<div class="back back-sm d-flex align-items-center justify-content-center">
+															<span class="cab">
+															500																								</span>
+														</div>
+													</div>
+												</div>
+
+												<div class="row d-flex align-items-center px-3">
+											<div class="col-lg-1 col-md-2 col-2 px-0" align="center">
+												<div class="back d-flex align-items-center justify-content-center">
+													<div class="circle d-flex align-items-center justify-content-center "><b>3</b></div>
+												</div>
+											</div>
+											<div class="col-lg-1 col-md-2 col-2 px-0 none-2" align="center">
+												<div class="back d-flex align-items-center justify-content-center">
+													<span class="timeRasp">11:00<br class="none-4"><span class="none-5"> - </span>12:20</span>								</div>
+												</div>
+												<div class="col-lg-8 col-md-10 col-10 px-0">
+													<div class="back">
+														<h4>МДК. Разработка мобильных приложений</h4>
+														<p>
+														Кашина Марина Анатольевна																					</p>
+													</div>
+												</div>
+													<div class="col-lg-2 col-md-6 col-6 px-0" align="center">
+														<div class="back back-sm d-flex align-items-center justify-content-center">
+															<span class="cab">
+															410																									</span>
+														</div>
+													</div>
+												</div>
+													</div>
+												</div><br>
+											</div>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+	<div class="modal fade" id="raspa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Расписание на сегодня</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+						<div id="mrasp">
+						<div id="fullrasp" style="">
+							<br><br>
+							<div class="row">
+							<div class="col-md-12">
+								<h4>9ИСП-42-18</h4>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="row d-flex align-items-center px-3">
+									<div class="col-lg-1 col-md-2 col-2 px-0" align="center">
+										<div class="back d-flex align-items-center justify-content-center">
+											<div class="circle d-flex align-items-center justify-content-center "><b>4</b></div>
+										</div>
+									</div>
+									<div class="col-lg-1 col-md-2 col-2 px-0 none-2" align="center">
+										<div class="back d-flex align-items-center justify-content-center">
+											<span class="timeRasp">13:00<br class="none-4"><span class="none-5"> - </span>14:20</span>								</div>
+										</div>
+										<div class="col-lg-8 col-md-10 col-10 px-0">
+											<div class="back">
+												<h4>МДК. Разработка кода информационных систем",</h4>
+												<p>
+												Кашина Марина Анатольевна																					</p>
+											</div>
+										</div>
+										<div class="col-md-6 col-6 px-0 none-3" align="center">
+													<div class="back w-100 back-sm d-flex align-items-center justify-content-center">
+														<span class="timeRasp">14:30<br class="none-4"><span class="none-5"> - </span>15:50</span>									</div>
+													</div>
+													<div class="col-lg-2 col-md-6 col-6 px-0" align="center">
+														<div class="back back-sm d-flex align-items-center justify-content-center">
+															<span class="cab">
+															204																									</span>
+														</div>
+													</div>
+										</div>
+
+										<div class="row d-flex align-items-center px-3">
+											<div class="col-lg-1 col-md-2 col-2 px-0" align="center">
+												<div class="back d-flex align-items-center justify-content-center">
+													<div class="circle d-flex align-items-center justify-content-center "><b>5</b></div>
+												</div>
+											</div>
+											<div class="col-lg-1 col-md-2 col-2 px-0 none-2" align="center">
+												<div class="back d-flex align-items-center justify-content-center">
+													<span class="timeRasp">14:30<br class="none-4"><span class="none-5"> - </span>15:50</span>								</div>
+												</div>
+												<div class="col-lg-8 col-md-10 col-10 px-0">
+													<div class="back">
+														<h4>МДК. Проектирование и дизайн информационных систем</h4>
+														<p>
+														Павлова Анастасия Николаевна																					</p>
+													</div>
+												</div>
+												<div class="col-md-6 col-6 px-0 none-3" align="center">
+													<div class="back w-100 back-sm d-flex align-items-center justify-content-center">
+														<span class="timeRasp">14:30<br class="none-4"><span class="none-5"> - </span>15:50</span>									</div>
+													</div>
+													<div class="col-lg-2 col-md-6 col-6 px-0" align="center">
+														<div class="back back-sm d-flex align-items-center justify-content-center">
+															<span class="cab">
+															410																									</span>
+														</div>
+													</div>
+												</div>
+
+													</div>
+												</div><br>
+											</div>
+											</div>
+
+																	<div id="mrasp">
+						<div id="fullrasp" style="">
+							<br><br>
+							<div class="row">
+							<div class="col-md-12">
+								<h4>9ИСП-423к-18</h4>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="row d-flex align-items-center px-3">
+									<div class="col-lg-1 col-md-2 col-2 px-0" align="center">
+										<div class="back d-flex align-items-center justify-content-center">
+											<div class="circle d-flex align-items-center justify-content-center "><b>1</b></div>
+										</div>
+									</div>
+									<div class="col-lg-1 col-md-2 col-2 px-0 none-2" align="center">
+										<div class="back d-flex align-items-center justify-content-center">
+											<span class="timeRasp">8:00<br class="none-4"><span class="none-5"> - </span>9:20</span>								</div>
+										</div>
+										<div class="col-lg-8 col-md-10 col-10 px-0">
+											<div class="back">
+												<h4>Стандартизация, сертификация и техническое документоведение,</h4>
+												<p>
+												Абрамова Лариса Алексеевна																					</p>
+											</div>
+										</div>
+										<div class="col-md-6 col-6 px-0 none-3" align="center">
+													<div class="back w-100 back-sm d-flex align-items-center justify-content-center">
+														<span class="timeRasp">14:30<br class="none-4"><span class="none-5"> - </span>15:50</span>									</div>
+													</div>
+													<div class="col-lg-2 col-md-6 col-6 px-0" align="center">
+														<div class="back back-sm d-flex align-items-center justify-content-center">
+															<span class="cab">
+															404																									</span>
+														</div>
+													</div>
+										</div>
+
+										<div class="row d-flex align-items-center px-3">
+											<div class="col-lg-1 col-md-2 col-2 px-0" align="center">
+												<div class="back d-flex align-items-center justify-content-center">
+													<div class="circle d-flex align-items-center justify-content-center "><b>2</b></div>
+												</div>
+											</div>
+											<div class="col-lg-1 col-md-2 col-2 px-0 none-2" align="center">
+												<div class="back d-flex align-items-center justify-content-center">
+													<span class="timeRasp">9:30<br class="none-4"><span class="none-5"> - </span>10:50</span>								</div>
+												</div>
+												<div class="col-lg-8 col-md-10 col-10 px-0">
+													<div class="back">
+														<h4>Стандартизация, сертификация и техническое документоведение</h4>
+														<p>
+														Казина Ирина Геннадиевна																				</p>
+													</div>
+												</div>
+												<div class="col-md-6 col-6 px-0 none-3" align="center">
+													<div class="back w-100 back-sm d-flex align-items-center justify-content-center">
+														<span class="timeRasp">14:30<br class="none-4"><span class="none-5"> - </span>15:50</span>									</div>
+													</div>
+													<div class="col-lg-2 col-md-6 col-6 px-0" align="center">
+														<div class="back back-sm d-flex align-items-center justify-content-center">
+															<span class="cab">
+															404																									</span>
+														</div>
+													</div>
+												</div>
+													</div>
+												</div><br>
+											</div>
+											</div>
+
+																	<div id="mrasp">
+						<div id="fullrasp" style="">
+							<br><br>
+							<div class="row">
+							<div class="col-md-12">
+								<h4>9ПКС-422к-18</h4>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="row d-flex align-items-center px-3">
+									<div class="col-lg-1 col-md-2 col-2 px-0" align="center">
+										<div class="back d-flex align-items-center justify-content-center">
+											<div class="circle d-flex align-items-center justify-content-center "><b>1</b></div>
+										</div>
+									</div>
+									<div class="col-lg-1 col-md-2 col-2 px-0 none-2" align="center">
+										<div class="back d-flex align-items-center justify-content-center">
+											<span class="timeRasp">8:00<br class="none-4"><span class="none-5"> - </span>9:20</span>								</div>
+										</div>
+										<div class="col-lg-8 col-md-10 col-10 px-0">
+											<div class="back">
+												<h4>МДК. Инструментальные средства разработки программного обеспечения",</h4>
+												<p>
+												Павлова Анастасия Николаевна																					</p>
+											</div>
+										</div>
+										<div class="col-md-6 col-6 px-0 none-3" align="center">
+													<div class="back w-100 back-sm d-flex align-items-center justify-content-center">
+														<span class="timeRasp">9:30<br class="none-4"><span class="none-5"> - </span>10:50</span>									</div>
+													</div>
+													<div class="col-lg-2 col-md-6 col-6 px-0" align="center">
+														<div class="back back-sm d-flex align-items-center justify-content-center">
+															<span class="cab">
+															410																								</span>
+														</div>
+													</div>
+										</div>
+
+										<div class="row d-flex align-items-center px-3">
+											<div class="col-lg-1 col-md-2 col-2 px-0" align="center">
+												<div class="back d-flex align-items-center justify-content-center">
+													<div class="circle d-flex align-items-center justify-content-center "><b>2</b></div>
+												</div>
+											</div>
+											<div class="col-lg-1 col-md-2 col-2 px-0 none-2" align="center">
+												<div class="back d-flex align-items-center justify-content-center">
+													<span class="timeRasp">9:30<br class="none-4"><span class="none-5"> - </span>10:50</span>								</div>
+												</div>
+												<div class="col-lg-8 col-md-10 col-10 px-0">
+													<div class="back">
+														<h4>Физическая культура</h4>
+														<p>
+														Саптарова Гульфия Рашитовна																					</p>
+													</div>
+												</div>
+													<div class="col-lg-2 col-md-6 col-6 px-0" align="center">
+														<div class="back back-sm d-flex align-items-center justify-content-center">
+															<span class="cab">
+															500																								</span>
+														</div>
+													</div>
+												</div>
+
+												<div class="row d-flex align-items-center px-3">
+											<div class="col-lg-1 col-md-2 col-2 px-0" align="center">
+												<div class="back d-flex align-items-center justify-content-center">
+													<div class="circle d-flex align-items-center justify-content-center "><b>3</b></div>
+												</div>
+											</div>
+											<div class="col-lg-1 col-md-2 col-2 px-0 none-2" align="center">
+												<div class="back d-flex align-items-center justify-content-center">
+													<span class="timeRasp">11:00<br class="none-4"><span class="none-5"> - </span>12:20</span>								</div>
+												</div>
+												<div class="col-lg-8 col-md-10 col-10 px-0">
+													<div class="back">
+														<h4>МДК. Разработка мобильных приложений</h4>
+														<p>
+														Кашина Марина Анатольевна																					</p>
+													</div>
+												</div>
+													<div class="col-lg-2 col-md-6 col-6 px-0" align="center">
+														<div class="back back-sm d-flex align-items-center justify-content-center">
+															<span class="cab">
+															410																									</span>
+														</div>
+													</div>
+												</div>
+													</div>
+												</div><br>
+											</div>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<header class="p-3 bg-dark text-white">
+							<div class="container">
+								<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+									<a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+										<svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+									</a>
+
+									<ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+										<li><a href="#" class="nav-link px-2 text-white">БКНТУ</a></li>
+									</ul>
+								</div>
+							</div>
+						</header>
+
+						<section id="rasp">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-12">
+										<h3>Расписание занятий</h3>
+									</div>
+								</div><br>
+								<div class="info">
+									<div class="row">
+										<div class="col-md-12"><br>
+
+											<!-- Учебные группы -->
+											<div class="items" id="study">
+												<form method="post" id="rasp_group">
+													<div class="row">
+														<div class="col-md-12">
+															<select id="group" name="data-group">
+																<option disabled="" selected="">Расписание для следующих Групп</option>
+																<option value="3b53fb26-93bd-11eb-879a-dc85de1a53b0">9ИСП-42-18</option>
+																<option value="3b53fb27-93bd-11eb-879a-dc85de1a53b0">9ИСП-423к-18</option>
+																<option value="3b53fb28-93bd-11eb-879a-dc85de1a53b0">9ПКС-422к-18</option>
+															</select>
+														</div>
+													</div><br>
+													<div class="row">
+														<div class="col-md-2 d-flex justify-content-xl-start justify-content-lg-start justify-content-md-start justify-content-sm-center justify-content-center">
+															<button type="button" name="subm" data-bs-toggle="modal" data-bs-target="#raspa">На сегодня</button>
+														</div>
+														<div class="col-md-2 d-flex justify-content-xl-start justify-content-lg-start justify-content-md-start justify-content-sm-center justify-content-center">
+															<button type="button" name="subm" data-bs-toggle="modal" data-bs-target="#raspanext">На завтра</button>
+														</div>
+													</div>
+												</form>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<footer>
+							<div class="container">
+								<div class="row">
+									<div class="col-xxl-12">
+										БКНТУ 2021 &copy;
+									</div>
+								</div>
+							</div>
+						</footer>
+
+						<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+						<script src="js/bootstrap.min.js"></script>
+						<script src="js/all.js"></script>
+						<script type="js/main.js"></script>
+</body>
+</html>
